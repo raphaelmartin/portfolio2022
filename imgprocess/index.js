@@ -135,9 +135,3 @@ app.get("/upload", uploadMiddleware, (req, res, next) => {
 app.get("/", async (req, res, next) => {
   res.sendFile(path.join(__dirname, "./docs/docs.html"));
 });
-
-const port = 5000;
-app.listen(port, () => {
-  console.log(`Server running on port ${port}`);
-  console.log(`http://localhost:${port}`);
-});
