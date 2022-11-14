@@ -22,10 +22,7 @@ async function fetchAPI(location){
   //   'x-requested-with': 'text/plain'
   // }}
 
-  const res = await fetch(baseURL, {
-    headers: {
-    'x-requested-with': 'text/plain'
-  }});
+  const res = await fetch(baseURL, {});
   const data = await res.json();
   console.log(data);
   return data;
