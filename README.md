@@ -6,10 +6,11 @@
 
 ## Projet 2
 * Mademoiselle Loyal est une agence événementielle à Bordeaux.
-* Élaborer une recommandation stratégique de la communication globale de l’agence, et une refonte graphique du site.
+* Demande: élaborer une recommandation stratégique de la communication globale de l’agence, et une refonte graphique du site.
 
 ## Projet 3
-* Projet personnel en Javascript: créer une app mobile Météo
+* Projet personnel en Javascript: créer une app mobile Météo.
+* Démo: <https://codepen.io/raphaelmartin/pen/YzvQbJy>
 
 ---
 
