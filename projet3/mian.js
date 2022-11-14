@@ -17,6 +17,8 @@ async function weatherApp(location){
 async function fetchAPI(location){
   const baseURL = `http://api.weatherstack.com/current?access_key=${key}&query=${location}&language=fr`;
 
+  {referrerPolicy: "unsafe_url"}
+
   // Use this if you get any error with cors-anywhere
   // {headers: {
   //   'x-requested-with': 'text/plain'
