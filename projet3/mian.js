@@ -1,4 +1,4 @@
-const key =  '6a73ed993fb67076477df40767903d8a';
+const key =  '6ce0e9f4cd3658059f0fb8d5aa021b1a';
 const formEl = document.querySelector('form');
 const details = document.querySelector('.details')
 
@@ -15,12 +15,7 @@ async function weatherApp(location){
   
 }
 async function fetchAPI(location){
-  const baseURL = `https://cors-anywhere.herokuapp.com/http://api.weatherstack.com/current?access_key=${key}&query=${location}`;
-
-{
-  headers: {
-  'x-requested-with': 'text/plain'
-}}
+  const baseURL = `http://api.weatherstack.com/current?language=fr&access_key=${key}&query=${location}`;
 
   const res = await fetch(baseURL, {
     headers: {
